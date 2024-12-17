@@ -13,8 +13,14 @@
         "vscode": {
             "extensions": [
                 "ms-vsliveshare.vsliveshare",  // Live Share extension
-                "ms-python.python"  // Python extension
+                "ms-python.python",  // Python extension
+                "vsls-contrib.gitdoc"  // Ensure GitDoc is listed here for automatic installation
             ]
+            "settings": {
+                "gitdoc.enabled": true,
+                "git.autofetch": true,
+                "gitdoc.autoCommitDelay": 5000
+            }
         }
     }
 }
